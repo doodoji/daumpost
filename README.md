@@ -32,7 +32,7 @@ $.daumpost({
 ## embed형
 ### 기본
 ```
-$('#embed').show();
+$('#embed').daumpost().show();
 ``` 
 
 ### 모든 옵션
