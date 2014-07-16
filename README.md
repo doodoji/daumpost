@@ -7,6 +7,12 @@ Daum 우편번호 서비스 jQuery Plug-in
 Thx. Daum. X)
 
 ## open형
+### 기본
+```
+$.daumpost().show();
+``` 
+
+### 모든 옵션
 ```
 $.daumpost()
   .width(400)
@@ -24,6 +30,12 @@ $.daumpost({
 ```
   
 ## embed형
+### 기본
+```
+$('#embed').show();
+``` 
+
+### 모든 옵션
 ```
 $('#embed').daumpost()
   .width(400)
