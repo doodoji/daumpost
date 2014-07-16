@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS Bin</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://dmaps.daum.net/map_js_init/postcode.js"></script>
+	<script src="jquery.daumpost.min.js"></script>
+</head>
+<body>
+	<h1>daumpost(Prod)</h1>
+	test "js/jquery.daumpost.min.js"
+	<br />
+	<button onclick="openWindow()">open</button>
+	<button onclick="embedInElement()">embed</button>
+	<div id="embed"></div>
+	<script> 
+	function openWindow() {
+		$.daumpost()
+			.width(400)
+			.height(800)
+			.oncomplete(function( data ) { console.log( 'complete', data ); })
+			.show();
+	}
+
+	function embedInElement() {
+		$('#embed').daumpost({
+			width: 400,
+			height: 800,
+			onresize: function ( size ) { console.log( 'resize', size ); },
+			oncomplete: function ( data ) { console.log( 'complete', data ) }
+		}).show();
+	}
+	</script>
+	</body>
+</html>
