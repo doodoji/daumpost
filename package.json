@@ -1,0 +1,25 @@
+{
+  "name": "daumpost",
+  "version": "0.0.1",
+  "description": "Daum 우편번호 서비스 jQuery Plug-in",
+  "main": "src/jquery.daumpost.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doodoji/daumpost.git"
+  },
+  "keywords": [
+    "daumpost"
+  ],
+  "author": "doodoji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doodoji/daumpost/issues"
+  },
+  "homepage": "https://github.com/doodoji/daumpost",
+  "devDependencies": {
+    "gulp": "^3.8.6"
+  }
+}
