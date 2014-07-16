@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/doodoji/daumpost",
   "devDependencies": {
-    "gulp": "^3.8.6"
+    "gulp": "^3.8.6",
+    "gulp-connect-multi": "^1.0.8",
+    "gulp-jshint": "^1.7.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1"
   }
 }
