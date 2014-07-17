@@ -3,8 +3,7 @@ daumpost
 
 Daum 우편번호 서비스 jQuery Plug-in
 
-자세한 설명은 [공식 가이드 문서](http://postcode.map.daum.net/guide)에서 확인하세요.
-Thx. Daum. X)
+자세한 설명은 [공식 가이드 문서](http://postcode.map.daum.net/guide)에서 확인하세요. X)
 
 ## open형
 ### 기본
